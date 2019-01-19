@@ -1,0 +1,4 @@
+numpy==1.16.0
+opencv-python==4.0.0.21
+selenium==3.141.0
+urllib3==1.24.1
