@@ -6,7 +6,7 @@ Automation framework (UI, Visual) - an example. Based on Python, OpenCV, Seleniu
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7cdc286cad594d3ab1cec707c33007bf)](https://app.codacy.com/app/BurhanH/automaton-v9?utm_source=github.com&utm_medium=referral&utm_content=BurhanH/automaton-v9&utm_campaign=Badge_Grade_Settings)
 
 ## Requirements
-Python 3.7.\*, Selenium 3.141.0, Unittest, <br>
+Python 3.7.\*, Selenium 3.141.0, Unittest, Open CV 4.0.* <br>
 virtualenv (virtual environment manager), <br> 
 Firefox 64.\*, geckodriver 0.23, <br>
 
