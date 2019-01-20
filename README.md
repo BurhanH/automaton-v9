@@ -7,4 +7,9 @@ Automation framework (UI, Visual) - an example. Based on Python, OpenCV, Seleniu
 
 
 Actual result (taken screenshot):
+
 ![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/home_page.png "Actual result for home page") <br>
+
+Visual searching result for google template (google logo):
+
+![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/google_template_result.png "Result for google logo template") <br>
