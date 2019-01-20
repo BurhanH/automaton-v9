@@ -13,3 +13,11 @@ Actual result (taken screenshot):
 Visual searching result for google template (google logo):
 
 ![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/google_template_result.png "Result for google logo template") <br>
+
+Visual searching result for buttons template:
+
+![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/buttons_template_result.png "Result for buttons") <br>
+
+Visual searching result for search template:
+
+![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/shearch_template_result.png "Result for google search text field") <br>
