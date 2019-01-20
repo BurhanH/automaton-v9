@@ -20,4 +20,4 @@ Visual searching result for buttons template:
 
 Visual searching result for search template:
 
-![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/shearch_template_result.png "Result for google search text field") <br>
+![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/search_template_result.png "Result for google search text field") <br>
