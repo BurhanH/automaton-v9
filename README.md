@@ -50,18 +50,18 @@ Firefox 64.\*, geckodriver 0.23, <br>
 ## How to run test/s in Chrome browser
 1) Go to any UI scenario and change the value of the `BROWSER` variable from `firefox` to `chrome`. Note! Before execution read steps 5-6 from [How to prepare environment](https://github.com/BurhanH/automaton-v2#how-to-prepare-environment) section
 
-##### Actual result (taken screenshot):
+##### Actual result (taken screenshot)
 
 ![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/home_page.png "Actual result for home page") <br>
 
-##### Visual searching result for google template (google logo):
+##### Visual searching result for google template (google logo)
 
 ![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/google_template_result.png "Result for google logo template") <br>
 
-##### Visual searching result for buttons template:
+##### Visual searching result for buttons template
 
 ![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/buttons_template_result.png "Result for buttons") <br>
 
-##### Visual searching result for search template:
+##### Visual searching result for search template
 
 ![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/search_template_result.png "Result for google search text field") <br>
