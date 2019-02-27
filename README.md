@@ -8,11 +8,11 @@ Automation framework (UI, Visual) - an example. Based on Python, OpenCV, Seleniu
 ## Requirements
 Python 3.7.\*, Selenium 3.141.0, Unittest, Open CV 4.0.* <br>
 virtualenv (virtual environment manager), <br> 
-Firefox 64.\*, geckodriver 0.23, <br>
+Firefox 65.\*, geckodriver 0.24, <br>
 
 ## Project structure
 ```text
--- automaton-v2
+-- automaton-v9
    |-- .gitattributes
    |-- .gitignore
    |-- LICENSE
@@ -48,7 +48,7 @@ Firefox 64.\*, geckodriver 0.23, <br>
 5) Execute `python -m unittest discover tests "*.py" -v`
 
 ## How to run test/s in Chrome browser
-1) Go to any UI scenario and change the value of the `BROWSER` variable from `firefox` to `chrome`. Note! Before execution read steps 5-6 from [How to prepare environment](https://github.com/BurhanH/automaton-v2#how-to-prepare-environment) section
+1) Go to any UI scenario and change the value of the `BROWSER` variable from `firefox` to `chrome`. Note! Before execution read steps 5-6 from [How to prepare environment](https://github.com/BurhanH/automaton-v9#how-to-prepare-environment) section
 
 ### Actual result (taken screenshot)
 
