@@ -15,7 +15,7 @@ class TestBrowserVisual(unittest.TestCase):
     This test suite for visual testing.
     """
 
-    def setUp(self):
+    def setUp(self) -> None:
         """
         Initiate driver for each test
         """
@@ -27,18 +27,28 @@ class TestBrowserVisual(unittest.TestCase):
         self.driver.implicitly_wait(WAIT_IMPL)
         self.driver.set_window_size(WINDOW_SIZE[0], WINDOW_SIZE[1])
 
-    def _check_templates(self, url, name, templates, positive=True):
-        """
-        Common method for checking templates on a page.
-        :param url: target url
-        :param name: name of page
-        :param templates: list of templates
-        :param positive: what kind of verification (mostly using for negative test)
+    def _check_templates(self,
+                         url: str,
+                         name: str,
+                         templates: list,
+                         positive=True) -> None:
+        """ Common method for checking templates on a page.
+        Args:
+            url (str): target url
+            name (str): name of page
+            templates (list): list of templates
+            positive (bool): what kind of verification (mostly using for negative test)
+
+        Returns:
+            None
+
+        Rises:
+            AssertionError
         """
         template_errors = []
 
         self.driver.get(url)
-        self.driver.get_screenshot_as_file('{0}/{1}'.format(WORK_FOLDER, name))
+        self.driver.get_screenshot_as_file(f'{WORK_FOLDER}/{name}')
 
         template_path = WORK_FOLDER
         where_to_save_result_path = WORK_FOLDER
@@ -49,7 +59,7 @@ class TestBrowserVisual(unittest.TestCase):
                     template,
                     name,
                     where_to_save_result_path):
-                template_errors.append('Unable to find {} image on {} page'.format(template[:-4], name[:-9]))
+                template_errors.append(f'Unable to find {template[:-4]} image on {name[:-9]} page')
 
         template_error_messages = '\n'.join(template_errors)
 
@@ -58,7 +68,7 @@ class TestBrowserVisual(unittest.TestCase):
         else:
             self.assertTrue(template_error_messages, template_error_messages)
 
-    def test_google_page(self):
+    def test_google_page(self) -> None:
         """
         Checking google home page
         """
@@ -72,7 +82,7 @@ class TestBrowserVisual(unittest.TestCase):
             ]
         )
 
-    def test_google_page_negative(self):
+    def test_google_page_negative(self) -> None:
         """
         Checking google home page negative
         """
@@ -83,7 +93,7 @@ class TestBrowserVisual(unittest.TestCase):
             positive=False
         )
 
-    def tearDown(self):
+    def tearDown(self) -> None:
         """
         Closing driver after each test
         """
