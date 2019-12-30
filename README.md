@@ -1,4 +1,4 @@
-A automaton-v9
+# Automaton-v9
 
 Automation testing framework (UI, Visual) - an example. Based on Python, OpenCV, Selenium, and Unittest
 
