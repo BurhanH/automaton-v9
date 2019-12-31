@@ -8,7 +8,7 @@ Automation testing framework (UI, Visual) - an example. Based on Python, OpenCV,
 ## Requirements
 Python 3.7.\*, Selenium 3.141.0, Unittest, Open CV 4.1.* <br>
 virtualenv (virtual environment manager), <br> 
-Firefox 66.\*, geckodriver 0.24, <br>
+Firefox 71.\*, geckodriver 0.26, <br>
 
 ## Project structure
 ```text
