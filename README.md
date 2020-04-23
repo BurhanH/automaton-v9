@@ -1,6 +1,6 @@
 # Automaton-v9
 
-Automation testing framework (UI, Visual) - an example. Based on Python, OpenCV, Selenium, and Unittest
+Automation testing framework (UI, Visual) - an example. Based on Python, OpenCV (Open Source Computer Vision Library), Selenium, and Unittest
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BurhanH/automaton-v9/blob/master/LICENSE)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7cdc286cad594d3ab1cec707c33007bf)](https://app.codacy.com/app/BurhanH/automaton-v9?utm_source=github.com&utm_medium=referral&utm_content=BurhanH/automaton-v9&utm_campaign=Badge_Grade_Settings)
@@ -8,7 +8,8 @@ Automation testing framework (UI, Visual) - an example. Based on Python, OpenCV,
 ## Requirements
 Python 3.7.\*, Selenium 3.141.0, Unittest, Open CV 4.1.* <br>
 virtualenv (virtual environment manager), <br> 
-Firefox 71.\*, geckodriver 0.26, <br>
+Firefox 75.0, geckodriver 0.26.0, <br>
+Chrome 81.0.4044.122, chromedriver 81.0.4044.69 <br>
 
 ## Project structure
 ```text
@@ -48,7 +49,19 @@ Firefox 71.\*, geckodriver 0.26, <br>
 5) Execute `python -m unittest discover tests "*.py" -v`
 
 ## How to run test/s in Chrome browser
-1) Go to any UI scenario and change the value of the `BROWSER` variable from `firefox` to `chrome`. Note! Before execution read steps 5-6 from [How to prepare environment](https://github.com/BurhanH/automaton-v9#how-to-prepare-environment) section
+Go to any UI scenario and change the value of the `BROWSER` variable from `firefox` to `chrome`. <br> Note! Before execution read steps 5-6 from [How to prepare environment](https://github.com/BurhanH/automaton-v9#how-to-prepare-environment) section
+
+## Techology stack and helpful info
+[Python 3.7](https://docs.python.org/3.7/)<br>
+[virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) <br>
+[GitHub, cloning repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) <br>
+[OpenCV, Open Source Computer Vision Library](https://opencv.org/)
+[unittest](https://docs.python.org/3.7/library/unittest.html) <br>
+[Selenium](https://www.selenium.dev/documentation/en/) <br>
+[Firefox](https://www.mozilla.org/en-US/firefox/) <br>
+[geckodriver](https://github.com/mozilla/geckodriver/releases) <br>
+[Chrome](https://www.google.com/chrome/) <br>
+[ChromeDriver](https://chromedriver.chromium.org/downloads) <br>
 
 ### Actual result (taken screenshot)
 
