@@ -55,7 +55,7 @@ Go to any UI scenario and change the value of the `BROWSER` variable from `firef
 [Python 3.7](https://docs.python.org/3.7/)<br>
 [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) <br>
 [GitHub, cloning repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) <br>
-[OpenCV, Open Source Computer Vision Library](https://opencv.org/)
+[OpenCV, Open Source Computer Vision Library](https://opencv.org/) <br>
 [unittest](https://docs.python.org/3.7/library/unittest.html) <br>
 [Selenium](https://www.selenium.dev/documentation/en/) <br>
 [Firefox](https://www.mozilla.org/en-US/firefox/) <br>
