@@ -67,16 +67,16 @@ Go to any UI scenario and change the value of the `BROWSER` variable from `firef
 
 ### Actual result (taken screenshot)
 
-![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/home_page.png "Actual result for home page") <br>
+![alt text](/results_example/home_page.png "Actual result for home page") <br>
 
 ### Visual searching result for google template (google logo)
 
-![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/google_template_result.png "Result for google logo template") <br>
+![alt text](/results_example/google_template_result.png "Result for google logo template") <br>
 
 ### Visual searching result for buttons template
 
-![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/buttons_template_result.png "Result for buttons") <br>
+![alt text](/results_example/buttons_template_result.png "Result for buttons") <br>
 
 ### Visual searching result for search template
 
-![alt text](https://github.com/BurhanH/automaton-v9/raw/master/results_example/search_template_result.png "Result for google search text field") <br>
+![alt text](/results_example/search_template_result.png "Result for google search text field") <br>
